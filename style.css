@@ -235,3 +235,45 @@ h4{
 .price-content:hover .price-content-body>p>span{
     color: #f4511e;
 }
+
+.team li{
+    list-style-type: none;
+}
+
+.sinner1{
+    padding: 9% 5%;
+    text-align: center;
+    background: #ebebeb;
+    min-height: 440px;
+}
+
+.sinner2{
+    padding: 9% 5%;
+    text-align: center;
+    background: #ebebeb;
+}
+
+.sinner1 img{
+    margin: 0 auto;
+}
+
+.sinner1 a img{
+    display: inherit;
+    width: 20%;
+}
+
+.sinner1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.team{
+    padding-bottom: 90px;
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: -34%;
+}
