@@ -9,3 +9,13 @@ $(document).ready(function(){
         controls: false
     });
 });
+
+$(document).ready(function(){
+    $(".flexslider").flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 200,
+        itemMargin: 25,
+        touch: true
+    });
+});
