@@ -357,3 +357,33 @@ h4{
 .textinput input:focus, .textmsg textarea:focus{
     box-shadow: 0px 1px 3px 4px rgba(246, 116, 75, 0.5);
 }
+
+.map h4{
+    padding-bottom: 20px;
+}
+
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f15324;
+    font-size: 24px;
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}
+
+footer p{
+    /*padding: 20px;*/
+    font-size: 20px;
+}
+footer h4{
+    padding: 20px;
+    font-family: 'bignoodletitling';
+}
