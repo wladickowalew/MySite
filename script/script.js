@@ -28,3 +28,17 @@ $(document).ready(function(){
 });
 
 
+$(function(){
+    let filterList = {
+        init: function(){
+            $('.workportfolio').mixitup({
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
+                effects: ['fade'],
+                easing: 'snap'
+            });
+        },
+    };
+    filterList.init();
+});
+
