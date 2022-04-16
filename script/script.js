@@ -86,6 +86,7 @@ $('#send_form .submit').on("click", function(event){
             },
             body: $("#send_form").serialize()
         }).then((response) => response.json()).then((data) =>{
+            console.log(data)
             if(data.status === "ok"){
                 $("#send_form").addClass("send_success");
                 setTimeout(() => $("#send_form").removeClass("send_success"), 4000);
